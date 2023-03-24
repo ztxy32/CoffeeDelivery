@@ -17,4 +17,5 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
+# Project layout on figma
+ To see this project layout on figma [click here](https://www.figma.com/file/00MYE1IBMAzePddpgNkCNr/Coffee-Delivery-(Copy)?node-id=2-1550&t=W9y8puwUzahliCm1-0).
