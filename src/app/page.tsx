@@ -1,10 +1,10 @@
 "use client"
-import { Roboto } from 'next/font/google'
-import { Baloo_2 } from 'next/font/google'
+import { Roboto, Baloo_2 } from 'next/font/google'
 import Image from 'next/image'
 import { Header } from './components/header'
 import CoffeeCup from './assets/coffeehome.png'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
+import { CoffeeCard } from './components/coffeeCard'
 
 const roboto = Roboto({ subsets: ['latin'], weight: ["400", "700"], variable: "--text" })
 const baloo_2 = Baloo_2({ subsets: ['latin'], weight: ["700", "800"], variable: "--header" })
@@ -55,6 +55,15 @@ export default function Home() {
         <div>
           <Image src={CoffeeCup} alt="copo de café"/>
         </div>
+      </div>
+      
+      {/* Lista de cafés */}
+      <div className='mx-40 pt-8 flex flex-col'>
+        <h2 className={`${baloo_2.className} mb-[54px] text-[32px] text-base-subtitle font-extrabold`}>
+          Nossos cafés
+        </h2>
+        <CoffeeCard/>
+        <br />
       </div>
     </>
   )
