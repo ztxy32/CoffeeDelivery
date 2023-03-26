@@ -5,11 +5,11 @@ import { MapPin, ShoppingCart } from "phosphor-react"
 
 export function Header(){
     return(
-        <div className="h-28 flex flex-1 px-40 py-8 justify-between bg-background">
-            <Image src={Logo} alt="" />
+        <div className="h-26 flex flex-1 px-40 py-8 justify-between bg-background">
+            <Image src={Logo} alt="" className="w-[85px] h-[40px]" />
             <div className="flex gap-3">
                 <span 
-                    className="flex center justify-center bg-purple-light text-purple-dark p-2 w-36 h-10 rounded"
+                    className="flex center justify-center bg-purple-light text-purple-dark p-2 h-[38px] rounded-md"
                 >
                     <MapPin 
                         color="#8047F8" size={18} 
@@ -19,13 +19,12 @@ export function Header(){
                     São Paulo, SP
                 </span>
                 <span 
-                    className="flex bg-yellow-light p-2 w-10 h-10 center justify-center rounded"
+                    className="flex bg-yellow-light p-2 w-[38px] h-[38px] center justify-center rounded-md cursor-pointer"
                 >
                     <ShoppingCart 
                         color="#C47F17" 
-                        size={18} 
                         weight="fill"
-                        className="m-1 cursor-pointer"
+                        className="m-1"
                     />
                 </span>
             </div>
