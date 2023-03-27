@@ -17,7 +17,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL"],
     coffeeName: "Expresso Tradicional",
     coffeeDescription: "O tradicional café feito com água quente e grãos moídos",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 1,
     coffeeImg: TradicionalExpressCoffee
 },
@@ -25,7 +25,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL"],
     coffeeName: "Expresso Americano",
     coffeeDescription: "Expresso diluído, menos intenso que o tradicional",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 2,
     coffeeImg: AmericanExpressCoffee
 },
@@ -33,7 +33,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL"],
     coffeeName: "Expresso Cremoso",
     coffeeDescription: "Café expresso tradicional com espuma cremosa",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 3,
     coffeeImg: CreamExpressCoffee
 },
@@ -41,7 +41,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL", "GELADO"],
     coffeeName: "Expresso Gelado",
     coffeeDescription: "Bebida preparada com café expresso e cubos de gelo",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 4,
     coffeeImg: IceExpressCoffee
 },
@@ -49,7 +49,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL", "COM LEITE"],
     coffeeName: "Café com Leite",
     coffeeDescription: "Meio a meio de expresso tradicional com leite vaporizado",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 5,
     coffeeImg: CoffeeWithMilk
 },
@@ -57,7 +57,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL", "COM LEITE"],
     coffeeName: "Latte",
     coffeeDescription: "Uma dose de café expresso com o dobro de leite e espuma cremosa",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 6,
     coffeeImg: Latte
 },
@@ -65,7 +65,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL", "COM LEITE"],
     coffeeName: "Capuccino",
     coffeeDescription: "Bebida com canela feita de doses iguais de café, leite e espuma",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 7,
     coffeeImg: Capuccino
 },
@@ -73,7 +73,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL", "COM LEITE"],
     coffeeName: "Macchiato",
     coffeeDescription: "Café expresso misturado com um pouco de leite quente e espuma",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 8,
     coffeeImg: Macchiato
 },
@@ -81,7 +81,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["TRADITIONAL", "COM LEITE"],
     coffeeName: "Mocaccino",
     coffeeDescription: "Café expresso com calda de chocolate, pouco leite e espuma",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 9,
     coffeeImg: Mocaccino
 },
@@ -89,7 +89,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["ESPECIAL", "COM LEITE"],
     coffeeName: "Chocolate Quente",
     coffeeDescription: "Bebida feita com chocolate dissolvido no leite quente e café",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 10,
     coffeeImg: HotChocolate
 },
@@ -97,7 +97,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["ESPECIAL", "ALCOÓLICO", "GELADO"],
     coffeeName: "Cubano",
     coffeeDescription: "Drink gelado de café expresso com rum, creme de leite e hortelã",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 11,
     coffeeImg: Cuban
 },
@@ -105,7 +105,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["ESPECIAL"],
     coffeeName: "Havaiano",
     coffeeDescription: "Bebida adocicada preparada com café e leite de coco",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 12,
     coffeeImg: Havaian
 },
@@ -113,7 +113,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["ESPECIAL"],
     coffeeName: "Árabe",
     coffeeDescription: "Bebida preparada com grãos de café árabe e especiarias",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 13,
     coffeeImg: Arabic
 },
@@ -121,7 +121,7 @@ export const coffeeMenu = [{
     coffeeLabel: ["ESPECIAL", "ALCOÓLICO"],
     coffeeName: "Irlandês",
     coffeeDescription: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
-    coffeePrice: 9.90,
+    coffeePrice: 990,
     coffeeId: 14,
     coffeeImg: Irish
 }
