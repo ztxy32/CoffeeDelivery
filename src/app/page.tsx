@@ -5,6 +5,7 @@ import { Header } from './components/header'
 import CoffeeCup from './assets/coffeehome.png'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 import { CoffeeCard } from './components/coffeeCard'
+import { coffeeMenu } from './utils/coffeeMenu'
 
 const roboto = Roboto({ subsets: ['latin'], weight: ["400", "700"], variable: "--text" })
 const baloo_2 = Baloo_2({ subsets: ['latin'], weight: ["700", "800"], variable: "--header" })
@@ -62,7 +63,19 @@ export default function Home() {
         <h2 className={`${baloo_2.className} mb-[54px] text-[32px] text-base-subtitle font-extrabold`}>
           Nossos cafés
         </h2>
-        <CoffeeCard/>
+        <div className='grid grid-cols-4 gap-x-[32px] gap-y-5'>
+          {coffeeMenu.map(item => 
+            <CoffeeCard
+              coffeeDescription={item.coffeeDescription}
+              coffeeId={item.coffeeId}
+              coffeeImg={item.coffeeImg}
+              coffeeLabel={item.coffeeLabel}
+              coffeePrice={item.coffeePrice}
+              coffeeName={item.coffeeName}
+              key={item.coffeeId}
+            />
+          )}
+        </div>
         <br />
       </div>
     </>
