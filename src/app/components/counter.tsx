@@ -9,16 +9,16 @@ export function Counter() {
         setQuantity(quantity+1)
     }
     function handleDecrease(){
-        setQuantity(quantity-1)
+        quantity > 1 ? setQuantity(quantity-1) : setQuantity(0)
     }
     return(
         <div className="w-[72px] h-[38px] bg-base-button py-[12px] px-2 flex items-center justify-center rounded-md">
             <button onClick={handleDecrease}>
-                <Minus className="text-purple"/>
+                <Minus className="text-purple hover:text-purple-dark"/>
             </button>
             <p className={`${roboto.className} text-base text-base-title mx-1`}>{quantity}</p>
             <button onClick={handleIncrease}>
-                <Plus className="text-purple"/>
+                <Plus className="text-purple hover:text-purple-dark"/>
             </button>
         </div>
     )
