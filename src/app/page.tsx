@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Header/>
-      <div className='flex justify-between px-40 pt-[94px] pb-[108px] heigh-[544px]'>
+      <div className='flex justify-between px-40 pt-[94px] pb-[108px] heigh-[544px] bg-[url("./assets/Background.png")]'>
 
         <div className="">
           <div>
