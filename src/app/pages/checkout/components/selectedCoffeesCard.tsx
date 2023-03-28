@@ -6,8 +6,6 @@ const roboto = Roboto({subsets: ["latin"], weight: ["400","700"]})
 export function SelectedCoffeesCard(){
     return(
         <div className="bg-base-card p-10 rounded-tl-md rounded-tr-[44px] rounded-br-md rounded-bl-[44px]">
-                        
-            {/*div item seleccionado*/}
             <CoffeeItem/>
             <div>
                 <span className={`${roboto.className} flex justify-between mt-6 text-base-text font-normal mb-3`}>

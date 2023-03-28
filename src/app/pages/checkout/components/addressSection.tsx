@@ -16,8 +16,6 @@ export function AddressSection(){
                     </p>
                 </span>
             </div>
-
-            {/* Input section */}
             <div className="flex flex-col">
                 <input 
                     type="text" 
@@ -68,7 +66,6 @@ export function AddressSection(){
                     />
                 </span>
             </div>
-            
         </div>
     )
 }

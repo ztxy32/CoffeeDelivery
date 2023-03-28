@@ -17,8 +17,6 @@ export function PaymentSection(){
                     </p>
                 </span>
             </div>
-
-            {/* Botões de metodo de pagamento*/}
             <div className="flex flex-row gap-3">
                 <button className={`${roboto.className} bg-base-button hover:bg-base-hover transition-colors p-4 flex flex-row items-center text-base-text text-xs rounded-md`}>
                     <CreditCard className="mr-3 text-purple text-base"/>
