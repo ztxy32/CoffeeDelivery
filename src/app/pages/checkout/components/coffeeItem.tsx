@@ -11,7 +11,9 @@ export function CoffeeItem(){
         <div className="flex justify-between py-6">
             <Image src={Coffee} width={64} height={64} alt="" className="mr-5"/>
             <div className="mr-[50px]">
-                Expresso Tradicional
+                <span className={`${roboto.className} text-base text-base-subtitle`}>
+                    Expresso Tradicional
+                </span>
                 <div className="flex gap-2">
                     <Counter/>
                     <button className="flex items-center bg-base-button hover:bg-base-hover transition-colors p-2 rounded-md">
