@@ -54,7 +54,7 @@ export function CoffeeCard({
                 <Counter/>
 
                 <button className="bg-purple-dark hover:bg-purple w-[38px] h-[38px] flex items-center justify-center rounded-md cursor-pointer ml-4">
-                    <ShoppingCartSimple weight="fill" className="text-base-card"/>
+                    <ShoppingCartSimple weight="fill" className="text-base-card text-2xl"/>
                 </button>
             </div>
         </div>

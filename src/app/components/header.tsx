@@ -8,7 +8,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ["400"]})
 
 export function Header(){
     return(
-        <div className="h-26 flex flex-1 px-40 py-8 justify-between bg-background sticky top-0 z-50">
+        <div className="h-26 flex px-40 py-8 justify-between bg-background sticky top-0 z-50">
             <Link href="/">
                 <Image src={Logo} alt="" className="w-[85px] h-[40px]" />
             </Link>
@@ -25,12 +25,12 @@ export function Header(){
                 </span>
                 <Link 
                     href={{ pathname: "./pages/checkout" }}
-                    className="flex bg-yellow-light p-2 w-[38px] h-[38px] center justify-center rounded-md cursor-pointer"
+                    className="bg-yellow-light w-[38px] h-[38px] flex items-center justify-center rounded-md cursor-pointer"
                 >
                     <ShoppingCart 
                         color="#C47F17" 
                         weight="fill"
-                        className="m-1"
+                        className="m-2 text-xl"
                     />
                 </Link>
             </div>
