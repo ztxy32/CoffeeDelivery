@@ -7,7 +7,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ["400"]})
 
 export function Header(){
     return(
-        <div className="h-26 flex flex-1 px-40 py-8 justify-between bg-background">
+        <div className="h-26 flex flex-1 px-40 py-8 justify-between bg-background sticky top-0 z-50">
             <Image src={Logo} alt="" className="w-[85px] h-[40px]" />
             <div className="flex gap-3">
                 <span 
