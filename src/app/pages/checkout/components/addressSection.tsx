@@ -4,10 +4,10 @@ const roboto = Roboto({subsets: ["latin"], weight: ["400","700"]})
 
 export function AddressSection(){
     return(
-        <div className="bg-base-card p-10 rounded-md">
+        <div className={`${roboto.className} bg-base-card p-10 rounded-md`}>
             <div className="flex flex-row mb-8">
                 <MapPinLine className="text-yellow" size={22}/>
-                <span className={`${roboto.className} flex flex-col pl-2 font-normal`}>
+                <span className={`${roboto.className} flex flex-col pl-2`}>
                     <p className="text-base-subtitle text-base">
                         Endereço de entrega
                     </p>
@@ -21,13 +21,13 @@ export function AddressSection(){
                     type="text" 
                     name="CEP" 
                     placeholder="CEP"
-                    className="bg-base-input p-3 mb-4 rounded" 
+                    className="bg-base-input p-3 mb-4 rounded text-base-text placeholder-base-label focus:outline-yellow-dark" 
                 />
                 <input 
                     type="text" 
                     name="Rua" 
                     placeholder="Rua" 
-                    className="bg-base-input p-3 mb-4 rounded" 
+                    className="bg-base-input p-3 mb-4 rounded text-base-text placeholder-base-label focus:outline-yellow-dark" 
                 />
 
                 <span className="flex">
@@ -35,13 +35,13 @@ export function AddressSection(){
                         type="text" 
                         name="Numero" 
                         placeholder="Número" 
-                        className="bg-base-input p-3 mb-4 rounded mr-3" 
+                        className="bg-base-input p-3 mb-4 rounded mr-3 text-base-text placeholder-base-label focus:outline-yellow-dark" 
                     />
                     <input 
                         type="text" 
                         name="Complemento" 
                         placeholder="Complemento" 
-                        className="bg-base-input p-3 mb-4 rounded flex-1" 
+                        className="bg-base-input p-3 mb-4 rounded flex-1 text-base-text placeholder-base-label focus:outline-yellow-dark" 
                     />
                 </span>
                 
@@ -50,19 +50,19 @@ export function AddressSection(){
                         type="text" 
                         name="Bairro" 
                         placeholder="Bairro" 
-                        className="bg-base-input p-3 mb-4 rounded mr-3 w-[200px]" 
+                        className="bg-base-input p-3 mb-4 rounded mr-3 w-[200px] text-base-text placeholder-base-label focus:outline-yellow-dark" 
                     />
                     <input 
                         type="text" 
                         name="Cidade" 
                         placeholder="Cidade" 
-                        className="bg-base-input p-3 mb-4 rounded mr-3" 
+                        className="bg-base-input p-3 mb-4 rounded mr-3 text-base-text placeholder-base-label focus:outline-yellow-dark" 
                     />
                     <input 
                         type="text" 
                         name="UF" 
                         placeholder="UF" 
-                        className="bg-base-input p-3 mb-4 rounded w-[60px]" 
+                        className="bg-base-input p-3 mb-4 rounded w-[60px] text-base-text placeholder-base-label focus:outline-yellow-dark" 
                     />
                 </span>
             </div>
