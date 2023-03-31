@@ -13,7 +13,7 @@ const baloo_2 = Baloo_2({ subsets: ['latin'], weight: ["700", "800"], variable: 
 export default function Home() {
   return (
     <>
-      <Header/>
+      <Header cartQuantity={2}/>
       <div className='flex justify-between px-40 pt-[94px] pb-[108px] heigh-[544px] bg-[url("./assets/Background.png")]'>
 
         <div className="">
